@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="18796147-41ea-4763-9b59-a416bf968879" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ss3/chinh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3/chinh_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3/chinh_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss3/ss4_form_table" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_form_table/chinh_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_form_table/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_form_table/demo_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_form_table/demo_chinh_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_form_table/diem_trung_binh_cua_mot_hs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_form_table/form_chinh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4_form_table/form_chinh_3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/c0724m1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2kQ4Hz9Br0t8zmpwvnt6BSHxjwC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Desktop/Codegym/c0724m1/ss4_form_table&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\Codegym\c0724m1\ss4_form_table" />
+      <recent name="C:\Users\Admin\Desktop\Codegym\c0724m1\ss2" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="18796147-41ea-4763-9b59-a416bf968879" name="Changes" comment="" />
+      <created>1723202382874</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723202382874</updated>
+      <workItem from="1723202384684" duration="2280000" />
+      <workItem from="1723212293328" duration="10000" />
+      <workItem from="1723212304421" duration="14000" />
+      <workItem from="1724056548085" duration="1733000" />
+      <workItem from="1724067006269" duration="4251000" />
+      <workItem from="1724212350905" duration="186000" />
+      <workItem from="1724228328867" duration="1295000" />
+      <workItem from="1724240131487" duration="1979000" />
+      <workItem from="1724247757581" duration="1819000" />
+      <workItem from="1724294783537" duration="1365000" />
+      <workItem from="1724378463779" duration="4892000" />
+      <workItem from="1724401902656" duration="3534000" />
+      <workItem from="1724426118229" duration="1566000" />
+      <workItem from="1724463058581" duration="3347000" />
+      <workItem from="1724490137578" duration="2195000" />
+      <workItem from="1724551932872" duration="1652000" />
+      <workItem from="1724577213545" duration="658000" />
+      <workItem from="1724578008190" duration="269000" />
+      <workItem from="1724578417912" duration="738000" />
+      <workItem from="1724675808947" duration="3967000" />
+      <workItem from="1724809418054" duration="4161000" />
+      <workItem from="1724845006988" duration="592000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
