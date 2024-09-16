@@ -1,10 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
 <body>
-$END$
+<label for="name">Name</label>
+<input id="name" planceholder="Enter name">
+<button onclick="addNewProduct()">Add new product</button>
+<p id="result"></p>
+<script>
+    let productList = ["bmw", "volvo", "ferrari", "porsche"]
+    display(productList)
+
+    function display(list) {
+        let tableString = `<table border="1" style="...">
+            <tr>
+                <th>STT</th>
+                <th>Name</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>`
+
+            for (i = 0; i < list.length; i++) {
+                tableString += <tr>
+                    <td>${i + 1}</td>
+                    <td>${list[i]}</td>
+                    <td><button onclick="editProduct(${i})">Edit</button></td>
+                    <td><button onclick="deleteProduct(${i})">Delete</button></td>
+                </tr>
+            }
+            tableString += `</table>`
+            document.getElementById("result").innerHTML=tableString
+    }
+</script>
 </body>
 </html>
