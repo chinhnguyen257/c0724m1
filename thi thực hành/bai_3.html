@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //Viết chương trình cho phép nhập tháng, năm. Tính xem tháng/ năm đó có bao nhiêu
+    //ngày. Yêu cầu kiểm tra định dạng của tháng năm nhập vào MM/yyyy
+    //*Yêu cầu nâng cao: Đối với tháng 2 cần kiểm tra xem có phải là năm nhuận hay không. Nếu
+    //năm Nhuận thì tháng 2 sẽ có 29 ngày, ngược lại thì là 28 ngày.
+       // Cách xác định năm nhuận: Những năm chia hết cho 4 là năm nhuận, ngoại trừ những năm
+    //chia hết cho 100 mà không chia hết cho 400.
+    //Từ đó, có thể rút gọn thành các quy tắc xác định năm nhuận:
+    // ● Những năm chia hết cho 4 mà không chia hết cho 100 là năm nhuận
+     //● Những năm chia hết cho 100 mà không chia hết cho 400 thì KHÔNG PHẢI là năm nhuận
+     //● Những năm chia hết đồng thời cho 100 và 400 là năm nhuận
+    function isLeapYear(year) {
+        // Kiểm tra năm nhuận
+        return (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
+    }
+
+    function getDaysInMonth(month, year) {
+        // Số ngày trong các tháng
+        const daysInMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
+        // Kiểm tra năm nhuận cho tháng 2
+        if (month === 2 && isLeapYear(year)) {
+            return 29;
+        }
+        return daysInMonth[month - 1]; // Tháng bắt đầu từ 1
+    }
+
+    function validateInput(input) {
+        // Kiểm tra định dạng MM/yyyy
+        const regex = /^(0[1-9]|1[0-2])\/(20[0-9]{2}|19[0-9]{2})$/;
+        return regex.test(input);
+    }
+
+    function main() {
+        const input = prompt("Nhập tháng và năm theo định dạng MM/yyyy:");
+
+        if (!validateInput(input)) {
+            console.log("Định dạng nhập không hợp lệ. Vui lòng nhập theo định dạng MM/yyyy.");
+            return;
+        }
+
+        const [month, year] = input.split('/').map(Number);
+
+        const days = getDaysInMonth(month, year);
+        console.log(`Tháng ${month} năm ${year} có ${days} ngày.`);
+    }
+
+    // Gọi hàm main để bắt đầu chương trình
+    main();
+</script>
+</body>
+</html>

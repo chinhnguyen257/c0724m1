@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //Cho một mảng số nguyên có số phần tử không vượt quá 50 phần tử, viết chương trình
+    //hiển thị trung bình cộng các số có trong mảng chia hết cho 3
+    function tinhtrungbinhChiahetcho3(arr) {
+        // Kiểm tra độ dài mảng
+        if (arr.length > 50) {
+            document.wirte("Mảng không được quá 50 phần tử.");
+            return;
+        }
+
+        let sum = 0;
+        let count = 0;
+
+        // Duyệt qua từng phần tử trong mảng
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] % 3 === 0) {
+                sum += arr[i];
+                count++;
+            }
+        }
+
+        // Tính trung bình cộng
+        if (count > 0) {
+            const average = sum / count;
+            document.write("Trung bình cộng của các số chia hết cho 3 là:", average);
+        } else {
+            document.write("Không có số nào chia hết cho 3 trong mảng.");
+        }
+    }
+
+    // Ví dụ sử dụng
+    const numbers = [1, 2, 3, 4, 5, 6, 9, 12, 15, 20, 21, 24];
+   tinhtrungbinhChiahetcho3(numbers);
+</script>
+</body>
+</html>

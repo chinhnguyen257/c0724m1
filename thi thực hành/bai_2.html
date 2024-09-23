@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    //Viết hàm cho phép nhập vào một số nguyên dương, kiểm tra xem số vừa nhập đó có
+    //phải là số hoàn hảo hay không. Chương trình sẽ trả về true nếu số đó là số hoàn hảo và false
+    //nếu không phải là số hoàn hảo
+    function isPerfectNumber(num) {
+        // Kiểm tra xem số nhập vào có phải là số nguyên dương hay không
+        if (num <= 0 || !Number.isInteger(num)) {
+            return false; // Trả về false nếu không phải số nguyên dương
+        }
+
+        let sum = 0;
+
+        // Tính tổng các ước số của num
+        for (let i = 1; i <= num / 2; i++) {
+            if (num % i === 0) {
+                sum += i;
+            }
+        }
+
+        // Kiểm tra xem tổng các ước số có bằng num hay không
+        return sum === num;
+    }
+
+    // Ví dụ sử dụng
+    const number = 28; // Thay đổi số này để kiểm tra các giá trị khác
+    const result = isPerfectNumber(number);
+    console.log(`Số ${number} ${result ? 'là' : 'không phải là'} số hoàn hảo.`);
+
+</script>
+</body>
+</html>

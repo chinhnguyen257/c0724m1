@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label for="name">Name</label>
+<input id="name" placeholder="Enter name" >
+<button onclick="addNewProduct()">Add new product</button>
+<p id="result"></p>
+<script>
+    let congnhanList = ["Tú","Vinh","Đức","Tuấn","Thái"]
+    display(congnhanList)
+    let ngaysinhList = ["2/2/1990","12/3/2001","3/4/1999","4/1/2000","15/7/2001"]
+    display(ngaysinhList)
+    let diachiList = ["Hà Nội","Bắc Giang","Hòa Bình","Thái Nguyên","Hải Phòng"]
+    display(diachiList)
+    let luongList = ["2000","2000","4000","3000","6000"]
+    display(luongList)
+    let chucvuList = ["NV","NV","NV","NV","NV"]
+    display(chucvuList)
+
+    function display(list) {
+        let tableString = ` <table border="1" style="border-collapse: collapse">
+        <tr>
+            <th>STT</th>
+            <th>Họ và Tên</th>
+            <th>Ngày sinh</th>
+            <th>Địa chỉ</th>
+            <th>Lương</th>
+            <th>Chức vụ</th>
+        </tr>`
+
+        for (let i = 0; i < list.length; i++) {
+            tableString += `<tr>
+                               <td>${i + 1}</td>
+                               <td>${list[i]}</td>
+                               <td>${ngaysinhList[i]}</td>
+                               <td>${diachiList[i]}</td>
+                               <td>${luongList[i]}</td>
+                               <td>${chuvuList[i]}</td>
+                            </tr>`
+        }
+        tableString += `</table>`
+        document.getElementById("result").innerHTML = tableString
+    }
+</script>
+</body>
+</html>
